@@ -80,8 +80,8 @@
 
   <distributionManagement>
     <site>
-      <id>apache.website</id>
-      <url>${site-repo-url}</url>
+      <id>citc-main</id>
+      <url>http://maven1.citc.ru/content/repositories/citc-main</url>
     </site>
   </distributionManagement>
 
@@ -123,9 +123,9 @@
   </modules>
 
   <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/camel/branches/camel-2.10.x</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/camel/branches/camel-2.10.x</developerConnection>
-    <url>http://svn.apache.org/viewvc/camel/branches/camel-2.10.x</url>
+    <connection>scm:git:git@github.com:c0ldd/camel.git</connection>
+    <developerConnection>scm:git:git@github.com:c0ldd/camel.git</developerConnection>
+    <url>https://github.com/c0ldd/camel</url>
   </scm>
 
   <build>
