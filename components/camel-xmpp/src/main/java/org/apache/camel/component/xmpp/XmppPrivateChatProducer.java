@@ -62,9 +62,9 @@ public class XmppPrivateChatProducer extends DefaultProducer {
 
         String participant = exchange.getIn().getHeader(XmppConstants.TO, String.class);
         String thread = endpoint.getChatId();
-        if(participant == null){
+        if (participant == null) {
             participant = getParticipant();
-        }else {
+        } else {
             thread = "Chat:" + participant + ":" + endpoint.getUser();
         }
 
