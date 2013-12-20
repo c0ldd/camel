@@ -79,10 +79,10 @@
   </issueManagement>
 
   <distributionManagement>
-    <site>
+    <repository>
       <id>citc-main</id>
       <url>http://maven1.citc.ru/content/repositories/citc-main</url>
-    </site>
+    </repository>
   </distributionManagement>
 
   <!-- Comment out the snapshot repositories as we don't need them now -->
