@@ -123,8 +123,8 @@
   </modules>
 
   <scm>
-    <connection>scm:git:git@github.com:c0ldd/camel.git</connection>
-    <developerConnection>scm:git:git@github.com:c0ldd/camel.git</developerConnection>
+    <connection>scm:git:ssh://git@github.com/c0ldd/camel.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/c0ldd/camel.git</developerConnection>
     <url>https://github.com/c0ldd/camel</url>
   </scm>
 
